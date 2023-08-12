@@ -1,0 +1,1130 @@
+{
+    "0010321_GEARSET_ANTIFRAG": {
+        "clone": "5b432be65acfc433000ed01f",
+        "enable": true,
+        "items": {
+            "_props": {
+                "BackgroundColor": "blue",
+                "armorClass": 2,
+                "Durability": 30,
+                "Prefab": {
+                    "path": "ATL_VISOR.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b47574386f77428ca22b331",
+            "Price": 2876
+        },
+        "locales": {
+            "Name": "Atlas Anti-fragmentation Glasses",
+            "Shortname": "ATL AFG",
+            "Description": "Custom, Atlas Anti-fragmentation Glasses. Modified from Russian military gear."
+        }
+    },
+    "010521_ARMR_SLICK_FDE000": {
+        "clone": "5e4abb5086f77406975c9342",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Durability" : 90,
+                "armorClass" : 8,
+                "speedPenaltyPercent" : -2,
+                "mousePenalty" : 0,
+                "weaponErgonomicPenalty" : -2,
+                "BluntThroughput" : 0.025,
+                "Weight" : 8.1,
+                "Prefab": {
+                    "path": "ATL_ARMR_SLICK_FDE.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f701386f774093f2ecf0f",
+            "Price": 374500
+        },
+        "locales": {
+            "Name": "LBT 6094A Slick Plate Carrier FDE",
+            "Shortname": "Slick",
+            "Description": "Simple FDE (Flat Dark Earth) plate carrier by LBT company. The most minimalistic design intended for use with chest rigs."
+        }
+    },
+    "010521_ARMR_SLICK_ODG000": {
+        "clone": "5e4abb5086f77406975c9342",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Durability" : 90,
+                "armorClass" : 8,
+                "speedPenaltyPercent" : -2,
+                "mousePenalty" : 0,
+                "weaponErgonomicPenalty" : -2,
+                "BluntThroughput" : 0.025,
+                "Weight" : 8.1,
+                "Prefab": {
+                    "path": "ATL_ARMR_SLICK_ODG.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f701386f774093f2ecf0f",
+            "Price": 374500
+        },
+        "locales": {
+            "Name": "LBT 6094A Slick Plate Carrier ODG",
+            "Shortname": "Slick",
+            "Description": "Simple ODG (Olive Drab Green) plate carrier by LBT company. The most minimalistic design intended for use with chest rigs."
+        }
+    },
+    "010421_ATL_WPN_ATL15_BLK": {
+        "clone": "5d43021ca4b9362eab4b5e25",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL15_BLK/weapon_lone_star_tx15_designated_marksman_556x45_container.bundle"
+                },
+                "weapFireType": [
+                    "single",
+                    "fullauto"
+                ],
+                "Ergonomics": 45,
+                "RecoilForceUp": 150,
+                "RecoilForceBack": 400,
+                "bFirerate": 650,
+                "defAmmo": "5fbe3ffdf8b6a877a729ea82",
+                "ammoCaliber": "Caliber762x35",
+                "Chambers": [
+                    {
+                        "_name": "patron_in_weapon",
+                        "_id": "5d43021ca4b9362eab4b5e2c",
+                        "_parent": "5d43021ca4b9362eab4b5e25",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                        "5fbe3ffdf8b6a877a729ea82",
+                                        "5fd20ff893a8961fc660a954",
+                                        "619636be6db0f2477964e710",
+                                        "6196364158ef8c428c287d9f",
+                                        "6196365d58ef8c428c287da1",
+                                        "010421_ATL15_AMMO_APXT00",
+                                        "010421_ATL15_AMMO_TT0000"
+                                    ]
+                                }
+                            ]
+                        },
+                        "_required": false,
+                        "_mergeSlotWithChildren": false,
+                        "_proto": "55d4af244bdc2d962f8b4571"
+                    }
+                ]
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f78fc86f77409407a7f90",
+            "Price": 25678
+        },
+        "locales": {
+            "Name": "Atlas ATL-15 .300 BLK Precision Rifle",
+            "Shortname": "ATL-15",
+            "Description": "Custom, Atlas ATL-15 .300 BLK Precision Rifle. Featuring a custom Titanium Nitride bolt carrier, with JP Enhanced Bolt, POF Roller Cam Pin, and enhanced extractor spring and Trigger Tech Adaptable 3.5lb Two Stage Trigger and Radian Talon Ambi Safety Selector Switch. The ATL-15 is optimized for mid/long range shooting. Manufactured by A T L A S"
+        },
+        "atlasCompatibilities": {
+            "mod_charge": [
+                "010421_ATL15_CRG_REDRPTR"
+            ],
+            "mod_pistol_grip": [
+                "010421_ATL15_PGRIP_MIAD0"
+            ],
+            "mod_stock": [
+                "010421_ATL15_STK_M7A1000"
+            ],
+            "mod_reciever": [
+                "010421_ATL15_UPPER_BLK00",
+                "010421_ATL15_UPPER_FDE00"
+            ]
+        },
+        "atlasConflicts": [
+            "55d35ee94bdc2d61338b4568",
+            "55d3632e4bdc2d972f8b4569",
+            "5c0e2f94d174af029f650d56",
+            "5d440b93a4b9364276578d4b",
+            "5d440b9fa4b93601354d480c"            
+        ]
+    },
+    "010421_ATL_WPN_ATL15_FDE": {
+        "clone": "5d43021ca4b9362eab4b5e25",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL15_FDE/weapon_lone_star_tx15_designated_marksman_556x45_container.bundle"
+                },
+                "weapFireType": [
+                    "single",
+                    "fullauto"
+                ],
+                "Ergonomics": 55,
+                "RecoilForceUp": 135,
+                "RecoilForceBack": 360,
+                "bFirerate": 650
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f78fc86f77409407a7f90",
+            "Price": 25678
+        },
+        "locales": {
+            "Name": "Atlas ATL-15 5.56x45 Precision Rifle",
+            "Shortname": "ATL-15",
+            "Description": "Custom, Atlas ATL-15 5.56x45 Precision Rifle. Featuring a custom Titanium Nitride bolt carrier, with JP Enhanced Bolt, POF Roller Cam Pin, and enhanced extractor spring and Trigger Tech Adaptable 3.5lb Two Stage Trigger and Radian Talon Ambi Safety Selector Switch. The ATL-15 is optimized for mid/long range shooting. Manufactured by A T L A S"
+        },
+        "atlasCompatibilities": {
+            "mod_charge": [
+                "010421_ATL15_CRG_REDRPTR"
+            ],
+            "mod_pistol_grip": [
+                "010421_ATL15_PGRIP_MIAD0"
+            ],
+            "mod_stock": [
+                "010421_ATL15_STK_M7A1000"
+            ],
+            "mod_reciever": [
+                "010421_ATL15_UPPER_BLK00",
+                "010421_ATL15_UPPER_FDE00"
+            ]
+        }
+    },
+    "0010321_GEARSET_KNIGHT00": {
+        "clone": "5e4abc6786f77406812bd572",
+        "enable": true,
+        "items": {
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "ATL_KNIGHT.bundle"
+                },
+                "Weight": 0.9,
+                "Grids": [
+                    {
+                        "_name": "main",
+                        "_id": "5e4abc6786f77406812bd574",
+                        "_parent": "5e4abc6786f77406812bd572",
+                        "_props": {
+                            "filters": [],
+                            "cellsH": 4,
+                            "cellsV": 6,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    }
+                ]
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f6f6c86f774093f2ecf0b",
+            "Price": 25891
+        },
+        "locales": {
+            "Name": "Atlas Knight Backpack",
+            "Shortname": "ATL Knight",
+            "Description": "Custom, Atlas Low-Profile Backpack. which allows you to very effectively carry items and equipment."
+        }
+    },
+    "0010321_GEARSET_GPNVG000": {
+        "clone": "5c0558060db834001b735271",
+        "enable": true,
+        "items": {
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "ATL_NVG.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f749986f774094242f199",
+            "Price": 145008
+        },
+        "locales": {
+            "Name": "Atlas GPNVG-18 Night Vision",
+            "Shortname": "ATL NVG",
+            "Description": "Custom, Atlas GPNVG-18 Night Vision. The cardinal difference of this NVG from the others is the presence of four separate EOP, two for each eye. Two Central EOPs are directed forward, while two more are directed outward from the center. This innovative solution allowed to expand the scope of the review to 97 degrees."
+        }
+    },
+    "0010321_GEARSET_QUICK000": {
+        "clone": "5f5f41476bdad616ad46d631",
+        "enable": true,
+        "items": {
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "ATL_ARMOR.bundle"
+                },
+                "Durability" : 125,
+                "armorClass" : 8,
+                "speedPenaltyPercent" : -10,
+                "mousePenalty" : 8,
+                "weaponErgonomicPenalty" : -8,
+                "BluntThroughput" : 0.08,
+                "Weight" : 9.8
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f701386f774093f2ecf0f",
+            "Price": 245678
+        },
+        "locales": {
+            "Name": "Atlas Quick Armor",
+            "Shortname": "ATL Quick",
+            "Description": "Custom, Atlas Lightweight Armor. Provides increased protection against bullets and fragments."
+        }
+    },
+    "0010321_GEARSET_RACHST00": {
+        "clone": "5a16b9fffcdbcb0176308b34",
+        "enable": true,
+        "items": {
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "ATL_RAC.bundle"
+                },
+                "Distortion": 0.16,
+                "CompressorTreshold": -31,
+                "CompressorAttack": 24,
+                "CompressorRelease": 164,
+                "CompressorGain": 13,
+                "CutoffFreq": 120,
+                "Resonance": 3,
+                "CompressorVolume": -5,
+                "AmbientVolume": -5,
+                "DryVolume": -60
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f6f3c86f774094242ef87",
+            "Price": 28765
+        },
+        "locales": {
+            "Name": "Atlas FAST RAC Headset",
+            "Shortname": "ATL RAC",
+            "Description": "Custom, Atlas FAST RAC Headset. Designed for the Ops-Core FAST helmet. The system of noise reduction and amplification of quiet sounds, as well as a radio headset when connected to the communication device."
+        }
+    },
+    "010521_REC_G17_FADE_000": {
+        "clone": "5a6f5f078dc32e00094b97dd",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL_REC_G17_FADE.bundle"
+                },
+                "Ergonomics": 10,
+                "Recoil": -7,
+                "Velocity": 1
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f764186f77447ec5d7714",
+            "Price": 33000
+        },
+        "locales": {
+            "Name": "Glock 9x19 Viper Cut slide FADE",
+            "Shortname": "Glock Viper FADE",
+            "Description": "Custom, Atlas Glock 9x19 Viper Cut slide FADE. Lightweight slide for Glock 9x19 pistols."
+        }
+    },
+    "0010321_GEARSET_ALPHBOLT": {
+        "clone": "5f5f41f56760b4138443b352",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL_RIG.bundle"
+                },
+                "Weight": 1.2,
+                "RigLayoutName": "ANA Tactical",
+                "Grids": [
+                    {
+                        "_name": "1",
+                        "_id": "5f5f41f56760b4138443b354",
+                        "_parent": "5f5f41f56760b4138443b352",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                        "54009119af1c881c07000029"
+                                    ],
+                                    "ExcludedFilter": [
+                                        "5448bf274bdc2dfc2f8b456a"
+                                    ]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 3,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "2",
+                        "_id": "5f5f41f56760b4138443b355",
+                        "_parent": "5f5f41f56760b4138443b352",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                        "54009119af1c881c07000029"
+                                    ],
+                                    "ExcludedFilter": [
+                                        "5448bf274bdc2dfc2f8b456a"
+                                    ]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 3,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "3",
+                        "_id": "5f5f41f56760b4138443b356",
+                        "_parent": "5f5f41f56760b4138443b352",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                        "54009119af1c881c07000029"
+                                    ],
+                                    "ExcludedFilter": [
+                                        "5448bf274bdc2dfc2f8b456a"
+                                    ]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 3,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "4",
+                        "_id": "5f5f41f56760b4138443b357",
+                        "_parent": "5f5f41f56760b4138443b352",
+                        "_props": {
+                            "filters": [
+                                {
+                                    "Filter": [
+                                        "54009119af1c881c07000029"
+                                    ],
+                                    "ExcludedFilter": [
+                                        "5448bf274bdc2dfc2f8b456a"
+                                    ]
+                                }
+                            ],
+                            "cellsH": 1,
+                            "cellsV": 3,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "5",
+                        "_id": "5f5f546e6760b4138443b364",
+                        "_parent": "5f5f41f56760b4138443b352",
+                        "_props": {
+                            "filters": [],
+                            "cellsH": 1,
+                            "cellsV": 2,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "6",
+                        "_id": "5f5f5487354701500f60f77a",
+                        "_parent": "5f5f41f56760b4138443b352",
+                        "_props": {
+                            "filters": [],
+                            "cellsH": 2,
+                            "cellsV": 2,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    },
+                    {
+                        "_name": "7",
+                        "_id": "5f5f549647344c2e4f6c42e8",
+                        "_parent": "5f5f41f56760b4138443b352",
+                        "_props": {
+                            "filters": [],
+                            "cellsH": 1,
+                            "cellsV": 2,
+                            "minCount": 0,
+                            "maxCount": 0,
+                            "maxWeight": 0,
+                            "isSortingTable": false
+                        },
+                        "_proto": "55d329c24bdc2d892f8b4567"
+                    }
+                ]
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f6f8786f77447ed563642",
+            "Price": 48876
+        },
+        "locales": {
+            "Name": "Atlas Alphabolt Compact Chest Rig BLK",
+            "Shortname": "ATL Alphabolt",
+            "Description": "Custom, Atlas Alphabolt Compact Chest Rig BLK (Black). A combination of integrated pouches and MOLLE straps provide the means of carrying a large set of equipment."
+        }
+    },
+    "0010321_GEARSET_SLAAPARM": {
+        "clone": "5c0e66e2d174af02a96252f4",
+        "enable": true,
+        "items": {
+            "_props": {
+                "BackgroundColor": "blue",
+                "Prefab": {
+                    "path": "ATL_SLAAP.bundle"
+                },
+                "Durability" : 28,
+                "armorClass" : 7,
+                "speedPenaltyPercent" : 0,
+                "mousePenalty" : 0,
+                "weaponErgonomicPenalty" : 0,
+                "BluntThroughput" : 0.15,
+                "Weight" : 0.4
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f704686f77447ec5d76d7",
+            "Price": 89300
+        },
+        "locales": {
+            "Name": "Atlas SLAAP Armor Plate",
+            "Shortname": "ATL SLAAP",
+            "Description": "Custom, Atlas Armor for the Ops-Core FAST helmet, made of a special polyethylene plate."
+        }
+    },
+    "0088_ATL_SR25_FDE_8800": {
+        "clone": "5df8ce05b11454561e39243b",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "SR25/weapon_container.bundle"
+                },
+                "weapFireType": [
+                    "single",
+                    "fullauto"
+                ]
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f791486f774093f2ed3be",
+            "Price": 26528
+        },
+        "locales": {
+            "Name": "Knight's Armament Company SR-25 7.62x51 FDE",
+            "Shortname": "SR-25",
+            "Description": "Custom, The SR-25 Precision Rifle is the latest evolution of the precision 7.62mm NATO semi-automatic rifle. An ambidextrous bolt release, selector, and magazine release offers the left-handed user the ergonomic advantages inherent to AR15 based controls, as well as giving right-handed users alternate methods of manipulation to increase efficiency of movement. The Drop-In 2-Stage Trigger serves as an aid to long range precision marksmanship. The E2 bolt and gas system provides superior reliability in function whether suppressed or unsuppressed."
+        },
+        "atlasCompatibilities": {
+            "mod_reciever": [
+                "0088_ATL_SR25_UPPER_FDE_8800"
+            ]
+        }
+    },
+    "0088_ATL_SR25_HAND_FDE_8800": {
+        "clone": "5df916dfbb49d91fb446d6b9",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL_SR25_HAND_FDE.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f75e486f77447ec5d7712",
+            "Price": 16506
+        },
+        "locales": {
+            "Name": "URX-4 handguard for AR-10 and compatible FDE",
+            "Shortname": "URX-4 14.5'' FDE",
+            "Description": "Custom, URX-4 is a 14.5 inch long, lightweight M-LOK compatible handguard for AR-10 rifles."
+        }
+    },
+    "0088_ATL_SR25_UPPER_FDE_8800": {
+        "clone": "5df8e4080b92095fd441e594",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL_SR25_UPPER_FDE.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f764186f77447ec5d7714",
+            "Price": 7074
+        },
+        "locales": {
+            "Name": "Upper receiver KAC 7.62x51 for SR-25 rifle FDE",
+            "Shortname": "SR-25 Upper",
+            "Description": "Custom, Upper receiver for SR-25 rifle manufactured by Knight's Armament Company."
+        },
+        "atlasCompatibilities": {
+            "mod_handguard": [
+                "0088_ATL_SR25_HAND_FDE_8800"
+            ]
+        }
+    },
+    "010421_ATL15_AMMO_APXT00": {
+        "clone": "5fd20ff893a8961fc660a954",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL15_APXT.bundle"
+                },
+                "Damage": 41,
+                "PenetrationPower": 50,
+                "ArmorDamage": 26,
+                "ammoAccr": -25,
+                "ammoRec": 25,
+                "InitialSpeed": 763,
+                "Tracer": true,
+                "TracerColor": "tracerRed",
+                "TracerDistance": 0.5,
+                "ExplosionStrength": 15,
+                "MinExplosionDistance": 0.15,
+                "MaxExplosionDistance": 1.9,
+                "HasGrenaderComponent": true,
+                "FragmentsCount": 4,
+                "FragmentType": "5943d9c186f7745a13413ac9",
+                "ShowHitEffectOnExplode": true,
+                "ExplosionType": "big_round_impact_explosive"
+            }
+        },
+        "handbook": {
+            "ParentId": "5b47574386f77428ca22b33b",
+            "Price": 1769
+        },
+        "locales": {
+            "Name": ".300 AAC Blackout APXT",
+            "Shortname": "APXT",
+            "Description": "Custom, .300 AAC Blackout Armor Piercing Explosive Tracer round. Manufactured by A T L A S."
+        }
+    },
+    "010421_ATL15_AMMO_TT0000": {
+        "clone": "5fbe3ffdf8b6a877a729ea82",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Damage": 81,
+                "PenetrationPower": 43,
+                "ArmorDamage": 18,
+                "ammoAccr": -14,
+                "ammoRec": 6,
+                "InitialSpeed": 740,
+                "Tracer": true,
+                "TracerColor": "tracerGreen",
+                "TracerDistance": 0.5
+            }
+        },
+        "handbook": {
+            "ParentId": "5b47574386f77428ca22b33b",
+            "Price": 300
+        },
+        "locales": {
+            "Name": ".300 AAC Blackout TT",
+            "Shortname": "TT",
+            "Description": "Custom, .300 AAC Blackout Tracer round. Manufactured by A T L A S."
+        }
+    },
+    "010421_ATL15_BAR_182_300": {
+        "clone": "55d35ee94bdc2d61338b4568",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL15_BAR_180.bundle"
+                },
+                "Weight": 0.308,
+                "ExtraSizeLeft": 1,
+                "Recoil": -1,
+                "Ergonomics": -1,
+                "Velocity": -5.3,
+                "CenterOfImpact": 0.062
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f75c686f774094242f19f",
+            "Price": 19788
+        },
+        "locales": {
+            "Name": "182mm Titanium Nitride Barrel for ATL-15 .300 BLK",
+            "Shortname": "182mm ATL-15 .300 BLK",
+            "Description": "Custom, Atlas 182mm Titanium Nitride Barrel for ATL-15 .300 BLK. Manufactured by A T L A S."
+        },
+        "atlasCompatibilities": {
+            "mod_muzzle": [
+                "5b7d693d5acfc43bca706a3d",
+                "5dcbe965e4ed22586443a79d",
+                "5d026791d7ad1a04a067ea63",
+                "5cdd7685d7f00c000f260ed2",
+                "5d02677ad7ad1a04a15c0f95",
+                "5bbdb8bdd4351e4502011460",
+                "5cdd7693d7f00c0010373aa5",
+                "5d443f8fa4b93678dd4a01aa",
+                "5addbba15acfc400185c2854",
+                "5addbbb25acfc40015621bd9"
+            ]
+        },
+        "atlasConflicts": [
+            "010421_ATL_WPN_ATL15_FDE",
+            "5447a9cd4bdc2dbd208b4567",
+            "5d43021ca4b9362eab4b5e25",
+            "5c07c60e0db834002330051f",
+            "5aafa49ae5b5b00015042a58",
+            "5addba3e5acfc4001669f0ab",
+            "5d44064fa4b9361e4f6eb8b5",
+            "5c78f2882e22165df16b832e"
+        ]
+    },
+    "010421_ATL15_BAR_277_300": {
+        "clone": "55d35ee94bdc2d61338b4568",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL15_BAR_277.bundle"
+                },
+                "Weight": 0.408,
+                "Recoil": -3,
+                "Ergonomics": -3,
+                "Velocity": -4.2,
+                "CenterOfImpact": 0.047
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f75c686f774094242f19f",
+            "Price": 32788
+        },
+        "locales": {
+            "Name": "277mm Titanium Nitride Barrel for ATL-15 .300 BLK",
+            "Shortname": "277mm ATL-15 .300 BLK",
+            "Description": "Custom, Atlas 277mm Titanium Nitride Barrel for ATL-15 .300 BLK. Manufactured by A T L A S."
+        },
+        "atlasCompatibilities": {
+            "mod_muzzle": [
+                "5b7d693d5acfc43bca706a3d",
+                "5a34fd2bc4a282329a73b4c5",
+                "5d1f819086f7744b355c219b",
+                "5dcbe965e4ed22586443a79d",
+                "5d026791d7ad1a04a067ea63",
+                "5dfa3cd1b33c0951220c079b",
+                "5cdd7685d7f00c000f260ed2",
+                "5c878e9d2e2216000f201903",
+                "5d02677ad7ad1a04a15c0f95",
+                "5bbdb8bdd4351e4502011460",
+                "5cdd7693d7f00c0010373aa5",
+                "5d443f8fa4b93678dd4a01aa",
+                "5addbb825acfc408fb139400",
+                "5addbb945acfc4001a5fc44e",
+                "5addbba15acfc400185c2854",
+                "5addbbb25acfc40015621bd9",
+                "5addbb6e5acfc408fb1393fd",
+                "5c7954d52e221600106f4cc7",
+                "5fbc22ccf24b94483f726483",
+                "59bffc1f86f77435b128b872",
+                "5cf78496d7f00c065703d6ca",
+                "5fbe7618d6fa9c00c571bb6c",
+                "5c7fb51d2e2216001219ce11"
+            ]
+        },
+        "atlasConflicts": [
+            "010421_ATL_WPN_ATL15_FDE",
+            "5447a9cd4bdc2dbd208b4567",
+            "5d43021ca4b9362eab4b5e25",
+            "5c07c60e0db834002330051f",
+            "5c78f2882e22165df16b832e"
+        ]
+    },
+    "010421_ATL15_BAR_379_300": {
+        "clone": "55d3632e4bdc2d972f8b4569",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL15_BAR_379.bundle"
+                },
+                "Weight": 0.508,
+                "Recoil": -5,
+                "Ergonomics": -5,
+                "Velocity": -3.1,
+                "CenterOfImpact": 0.036
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f75c686f774094242f19f",
+            "Price": 49788
+        },
+        "locales": {
+            "Name": "379mm Titanium Nitride Barrel for ATL-15 .300 BLK",
+            "Shortname": "379mm ATL-15 .300 BLK",
+            "Description": "Custom, Atlas 379mm Titanium Nitride Barrel for ATL-15 .300 BLK. Manufactured by A T L A S."
+        },
+        "atlasCompatibilities": {
+            "mod_muzzle": [
+                "5b7d693d5acfc43bca706a3d",
+                "5a34fd2bc4a282329a73b4c5",
+                "5d1f819086f7744b355c219b",
+                "5dcbe965e4ed22586443a79d",
+                "5d026791d7ad1a04a067ea63",
+                "5dfa3cd1b33c0951220c079b",
+                "5cdd7685d7f00c000f260ed2",
+                "5c878e9d2e2216000f201903",
+                "5d02677ad7ad1a04a15c0f95",
+                "5bbdb8bdd4351e4502011460",
+                "5cdd7693d7f00c0010373aa5",
+                "5d443f8fa4b93678dd4a01aa",
+                "5addbb825acfc408fb139400",
+                "5addbb945acfc4001a5fc44e",
+                "5addbba15acfc400185c2854",
+                "5addbbb25acfc40015621bd9",
+                "5addbb6e5acfc408fb1393fd",
+                "5c7954d52e221600106f4cc7",
+                "5fbc22ccf24b94483f726483",
+                "59bffc1f86f77435b128b872",
+                "5cf78496d7f00c065703d6ca",
+                "5fbe7618d6fa9c00c571bb6c",
+                "5c7fb51d2e2216001219ce11"
+            ]
+        },
+        "atlasConflicts": [
+            "010421_ATL_WPN_ATL15_FDE",
+            "5447a9cd4bdc2dbd208b4567",
+            "5d43021ca4b9362eab4b5e25",
+            "5c07c60e0db834002330051f",
+            "5c78f2882e22165df16b832e"
+        ]
+    },
+    "010421_ATL15_CRG_REDRPTR": {
+        "clone": "5d44334ba4b9362b346d1948",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL15_RED_RAPTOR.bundle"
+                },
+                "Ergonomics": 4,
+                "Velocity": 1
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f751486f77447ec5d770c",
+            "Price": 8383
+        },
+        "locales": {
+            "Name": "Raptor charging handle for AR-15 Red",
+            "Shortname": "RPTR RED",
+            "Description": "Custom, Atlas Red Raptor charging handle for AR-15 and compatible systems. Manufactured by A T L A S."
+        }
+    },
+    "010421_ATL15_HND_SMR_130": {
+        "clone": "5ea16ada09aa976f2e7a51be",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL15_SMR13.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f75e486f77447ec5d7712",
+            "Price": 18088
+        },
+        "locales": {
+            "Name": "Atlas SMR MK88 13.5in M-LOK Handguard for ATL-15",
+            "Shortname": "ATL SMR 13.5",
+            "Description": "Custom, Atlas Superior Modular Rail MK88 13.5in M-LOK Handguard for ATL-15. Manufactured by A T L A S."
+        },
+        "atlasCompatibilities": {
+            "mod_tactical_000": [
+                "010421_ATL15_TAC_PEQ1500"
+            ]
+        },
+        "atlasConflicts": [
+            "010421_ATL15_BAR_182_300",
+            "010421_ATL15_BAR_277_300"
+        ]
+    },
+    "010421_ATL15_HND_SMR_950": {
+        "clone": "5ea16acdfadf1d18c87b0784",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL15_SMR95.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f75e486f77447ec5d7712",
+            "Price": 16088
+        },
+        "locales": {
+            "Name": "Atlas SMR MK88 9.5in M-LOK Handguard for ATL-15",
+            "Shortname": "ATL SMR 9.5",
+            "Description": "Custom, Atlas Superior Modular Rail MK88 9.5in M-LOK Handguard for ATL-15. Manufactured by A T L A S."
+        },
+        "atlasCompatibilities": {
+            "mod_tactical_000": [
+                "010421_ATL15_TAC_PEQ1500"
+            ]
+        }
+    },
+    "010421_ATL15_MUZ_BLUE000": {
+        "clone": "5d026791d7ad1a04a067ea63",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL15_BLUE.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f724c86f774093f2ecf15",
+            "Price": 16688
+        },
+        "locales": {
+            "Name": "Atlas Blue Break 5.56x45 muzzle brake",
+            "Shortname": "ATL Blue",
+            "Description": "Custom, Atlas Blue Break 5.56x45 muzzle brake. Manufactured by A T L A S."
+        }
+    },
+    "010421_ATL15_MUZ_HYPR000": {
+        "clone": "5d44064fa4b9361e4f6eb8b5",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL15_HYPER.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f731a86f774093e6cb4f9",
+            "Price": 68080
+        },
+        "locales": {
+            "Name": "Atlas Hyper Beast Mini .300 BLK suppressor",
+            "Shortname": "ATL HYPER",
+            "Description": "Custom, Atlas Hyper Beast Mini .300 BLK suppressor. desigend to be installed on compatible Thunder Beast Muzzle brake muzzle devices compatible with .300 BLK and NATO 556x45 calibers. Manufactured by A T L A S."
+        }
+    },
+    "010421_ATL15_MUZ_RC20000": {
+        "clone": "5ea17bbc09aa976f2e7a51cd",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL15_RC2.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f731a86f774093e6cb4f9",
+            "Price": 51788
+        },
+        "locales": {
+            "Name": "Atlas RC2 .300 BLK suppressor",
+            "Shortname": "ATL RC2",
+            "Description": "Custom, Atlas RC2 .300 BLK suppressor, desigend to be installed on compatible Surefire muzzle devices compatible with .300 BLK and NATO 556x45 calibers. Manufactured by A T L A S."
+        }
+    },
+    "010521_OPT_RAZOR_FDE0000": {
+        "clone": "59f9d81586f7744c7506ee62",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL15_OPT_RAZOR_FDE.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f742686f774093e6cb4ff",
+            "Price": 28691
+        },
+        "locales": {
+            "Name": "Vortex Razor AMG UH-1 holographic sight FDE",
+            "Shortname": "UH-1",
+            "Description": "Vortex Razor AMG UH-1 holographic sight FDE (Flat Dark Earth) is not only about futuristic design, but, according to its creators, is also a revolution among holographic and reflex sights. Manufactured by A T L A S."
+        }
+    },
+    "010421_ATL15_PGRIP_MIAD0": {
+        "clone": "5a339805c4a2826c6e06d73d",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL15_MIAD.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f761f86f774094242f1a1",
+            "Price": 3150
+        },
+        "locales": {
+            "Name": "Atlas MIAD Pistol grip for AR-15",
+            "Shortname": "ATL MIAD",
+            "Description": "Custom, Atlas MIAD polymer pistol grip can be installed on any weapon compatible with AR-15 grips. Manufactured by A T L A S."
+        }
+    },
+    "010421_ATL15_STK_M7A1000": {
+        "clone": "591aef7986f774139d495f03",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL15_M7A1.bundle"
+                },
+                "ExtraSizeRight": 0,
+                "Recoil": -12,
+                "Ergonomics": 24
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f757486f774093e6cb507",
+            "Price": 8962
+        },
+        "locales": {
+            "Name": "Atlas M7A1 PDW stock for ATL-15",
+            "Shortname": "ATL M7A1",
+            "Description": "Custom, Atlas M7A1 PDW stock for ATL-15. Reduces the overall weapon size and recoil buffer. Manufactured by A T L A S."
+        }
+    },
+    "010421_ATL15_TAC_PEQ1500": {
+        "clone": "544909bb4bdc2d6f028b4577",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL15_PEQ.bundle"
+                }
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f737886f774093e6cb4fb",
+            "Price": 22843
+        },
+        "locales": {
+            "Name": "ATL/PEQ-15 tactical device",
+            "Shortname": "ATL/PEQ-15",
+            "Description": "Custom, Atlas ATL/PEQ-15 tactical device. ATPIAL (Advanced Target Pointer Illuminator Aiming Laser). Tactical device that combines laser designators in both visible and IR band with IR searchlight.  Manufactured by A T L A S."
+        }
+    },
+    "010421_ATL15_UPPER_BLK00": {
+        "clone": "5d4405aaa4b9361e6a4e6bd3",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL15_REC.bundle"
+                },
+                "Recoil": -3,
+                "Ergonomics": 7
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f764186f77447ec5d7714",
+            "Price": 38765
+        },
+        "locales": {
+            "Name": "Atlas .300 BLK Upper for ATL-15 Precision Rifle",
+            "Shortname": "ATL-15 Upper",
+            "Description": "Custom, Atlas .300 BLK Upper for ATL-15 Precision Rifle. The ATL-15 upper is optimized for lightweight and durability. Manufactured by A T L A S."
+        },
+        "atlasCompatibilities": {
+            "mod_barrel": [
+                "010421_ATL15_BAR_182_300",
+                "010421_ATL15_BAR_277_300",
+                "010421_ATL15_BAR_379_300"
+            ],
+            "mod_handguard": [
+                "010421_ATL15_HND_SMR_130",
+                "010421_ATL15_HND_SMR_950"
+            ],
+            "mod_scope": [
+                "010521_OPT_RAZOR_FDE0000"
+            ]
+        }
+    },
+    "010421_ATL15_UPPER_FDE00": {
+        "clone": "5d4405aaa4b9361e6a4e6bd3",
+        "enable": true,
+        "items": {
+            "_props": {
+                "Prefab": {
+                    "path": "ATL15_UPPER_FDE.bundle"
+                },
+                "Recoil": -3,
+                "Ergonomics": 7
+            }
+        },
+        "handbook": {
+            "ParentId": "5b5f764186f77447ec5d7714",
+            "Price": 38765
+        },
+        "locales": {
+            "Name": "Atlas 5.56x45 Upper FDE for ATL-15 Precision Rifle",
+            "Shortname": "ATL-15 Upper",
+            "Description": "Custom, Atlas 5.56x45 Upper FDE for ATL-15 Precision Rifle. The ATL-15 upper is optimized for lightweight and durability. Manufactured by A T L A S."
+        },
+        "atlasCompatibilities": {
+            "mod_barrel": [
+                "010421_ATL15_BAR_182_300",
+                "010421_ATL15_BAR_277_300",
+                "010421_ATL15_BAR_379_300"
+            ],
+            "mod_handguard": [
+                "010421_ATL15_HND_SMR_130",
+                "010421_ATL15_HND_SMR_950"
+            ],
+            "mod_scope": [
+                "010521_OPT_RAZOR_FDE0000"
+            ]
+        }
+    }
+}
